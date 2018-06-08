@@ -47,11 +47,25 @@ Develop companion with an emotional approach for learners:
 * [Zhang Tsinxias](https://github.com/Tsinxias)
 * [Farid Hammouten](https://github.com/Farid212)
 * [Dayvid Astua](https://github.com/DayvidAstua)
+* [Arnaud Duchemin](https://github.com/Cervant3s)
+* [Steve Van Essche](https://github.com/Steve-VE)
+* [Bryan Mootoosamy](https://github.com/BryanMootoosamy)
+* [Romain Grotard](https://github.com/GrotardRomain)
+* [Morgan Mignot](https://github.com/MignotMorgan)
+* [Mathieu Leers](https://github.com/leersmathieu)
+* [Félicien Manzi](https://github.com/gitmanfel)
+* [Michael Bourloo](https://github.com/MichaelBourloo)
+* [Dorian Collier](https://github.com/ocorneillard)
+* [Jerome Gretzer](https://github.com/gretzerjerome)
+* [Félix Namêche](https://github.com/FelixNameche)
+* [Jacques Bernard](https://github.com/Bernardjacques)
 
 ### Special thanks to
 
 * [Cédric Swaelens](https://becode.org/)
 * [Teddy Kishi](https://github.com/teddykishi)
+* [Ludovic Patho](https://github.com/LudovicPatho)
+* [Bertrand Marlair](https://github.com/bertrandBecode)
 
 ## License
 
