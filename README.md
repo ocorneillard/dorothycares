@@ -55,8 +55,8 @@ Develop companion with an emotional approach for learners:
 * [Mathieu Leers](https://github.com/leersmathieu)
 * [Félicien Manzi](https://github.com/gitmanfel)
 * [Michael Bourloo](https://github.com/MichaelBourloo)
-* [Dorian Collier](https://github.com/ocorneillard)
 * [Jerome Gretzer](https://github.com/gretzerjerome)
+* [Dorian Collier](https://github.com/ocorneillard)
 * [Félix Namêche](https://github.com/FelixNameche)
 * [Jacques Bernard](https://github.com/Bernardjacques)
 
