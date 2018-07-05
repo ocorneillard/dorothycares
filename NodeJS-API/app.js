@@ -15,7 +15,7 @@ const toolboxRoutes = require("./api/routes/toolbox");
 // 2. Connecting to MongoDB on mLab
 mongoose.Promise = global.Promise;
 const DBName = 'dorothycares';
-mongoose.connect(`mongodb://DorothyCares:TheN!neSold!ers@ds239309.mlab.com:39309/${DBName}`)
+mongoose.connect(`mongodb://localhost:27017/${DBName}`)
         .then(() => console.log(`Connected to MongoDB on DB ${DBName}`))
         .catch((err) => console.log(`Database error: ${err}`));
 
