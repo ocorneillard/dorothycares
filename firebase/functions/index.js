@@ -24,7 +24,8 @@ const STARTUP_ACTION = 'user.becode.getStartup';
 
 const STARTUP_MEMBERS_ACTION = 'user.becode.getStartupMember';
 
-const RELATIONAL_URL = 'https://dev.dorothycares.io/api';
+const RELATIONAL_URL = 'https://dorothycares.ovh/api';
+const REST_API_URL = 'https://dorothycares.herokuapp.com/';
 
 
 exports.dorothyCares = functions.https.onRequest((request, response) => {
@@ -42,8 +43,8 @@ exports.dorothyCares = functions.https.onRequest((request, response) => {
     console.log('give ressources v1.5');
     let technology = app.getArgument(TECH_ARGUMENT);
     // make the request to our api to have the informations
-    console.log('https://dorothycares.herokuapp.com/ressources/' + technology);
-    https.get('https://dorothycares.herokuapp.com/ressources/' + technology, (res) => {
+    console.log(REST_API_URL + 'ressources/' + technology);
+    https.get( REST_API_URL + 'ressources/' + technology, (res) => {
       // declaring the body
       let body = '';
       // checking the status of the request
@@ -77,8 +78,8 @@ exports.dorothyCares = functions.https.onRequest((request, response) => {
     console.log('give toolbox v1.3');
     let codingToolbox = app.getArgument(SIDE_TECH_ARGUMENT);
     // make the request to our api to have the informations
-    console.log('https://dorothycares.herokuapp.com/toolbox/' + codingToolbox);
-    https.get('https://dorothycares.herokuapp.com/toolbox/' + codingToolbox, (res) => {
+    console.log(REST_API_URL + 'toolbox/' + codingToolbox);
+    https.get(REST_API_URL + 'toolbox/' + codingToolbox, (res) => {
       // declaring the body
       let body = '';
       // checking the status of the request
