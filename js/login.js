@@ -112,3 +112,17 @@ document.querySelector('.call-to-action').onmousemove = function (e) {
   e.target.style.setProperty('--x', x + 'px');
   e.target.style.setProperty('--y', y + 'px');
 };
+
+/*
+EMPTY REQUEST TO WAKE UP HEROKU
+_______________________________
+*/
+// let wakeUpRequest = new XMLHttpRequest();
+
+// function wakeUpRequestFunction() { // what happens when the AJAX request is done
+//   console.log('Hello Heroku, it\'s time to wake up!')
+// };
+
+// wakeUpRequest.onload = wakeUpRequestFunction; // we assign the function to excecute when the data are loading
+// wakeUpRequest.open("GET", 'https://dorothycares.herokuapp.com/ressources/nodejs', true); // the type, the url, asynchronous true/false
+// wakeUpRequest.send(null); // we send the request
