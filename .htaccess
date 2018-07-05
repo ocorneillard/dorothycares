@@ -7,7 +7,7 @@ RewriteBase /
 #########
 
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.dorothycares.io/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.dorothycares.ovh/$1 [R=301,L]
 
 ##################
 # Security check #
