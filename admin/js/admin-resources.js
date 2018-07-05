@@ -4,7 +4,7 @@ let jwt = ''; // variable for the json web token
 
 // AJAX requests
 let feedphp = 'ajax.php';
-let feednode = 'https://dorothycares.herokuapp.com/ressources/';
+let feednode = 'https://dorothycares.ovh/node-api/ressources/';
 let dataRequestGetJWT = new XMLHttpRequest(); // open ajax request to get the json web token
 let dataRequestDisplayResources = new XMLHttpRequest(); // open ajax request to display resources
 
