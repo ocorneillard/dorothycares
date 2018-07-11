@@ -1,4 +1,6 @@
  ## admin/ ![Zozor](http://www.iconsplace.com/icons/preview/red/thumbs-down-30.png)
+ 
+ > Gestion du contenu via l'interface 
 
 - ### admin-management.php  
     Page contenant : <br />
