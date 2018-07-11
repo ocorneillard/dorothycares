@@ -29,3 +29,9 @@
 
 
 
+## To Do
+
+- [ ] Faire fonctionner la partie admin.
+- [ ] Rendre les fichiers JS lisible.
+- [ ] Rendre admin-management && admin-resources visibles.
+
